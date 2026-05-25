@@ -1,0 +1,35 @@
+# Başvuru Takip Sistemi
+
+Python ile geliştirilmiş dosya tabanlı başvuru takip sistemi.
+
+## Özellikler
+
+- Başvuru ekleme
+- Başvuruları listeleme
+- Durum güncelleme
+- Başvuru silme
+- JSON tabanlı veri saklama
+
+## Kullanılan Teknolojiler
+
+- Python
+- JSON
+
+## Kurulum
+
+```bash
+git clone https://github.com/kullaniciadi/basvuru-takip-sistemi.git
+cd basvuru-takip-sistemi
+python main.py
+```
+
+## Proje Yapısı
+
+```bash
+basvuru-takip-sistemi/
+│
+├── main.py
+├── basvurular.json
+├── README.md
+└── .gitignore
+```
